@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">StacKTMeuPortifolio</string>
+    <string name="caio_luiz">Caio Luiz</string>
+    <string name="descricao" translatable="true">
+        <p align="justify">
+        \n
+        Meu nome é Caio Luiz sou um desenvolvedor Android com uma paixão inigualável pela criação de experiências
+        digitais inovadoras. Descobri minha vontade pelo desenvolvimento Android durante a faculdade, onde tinha muita curiosidade
+        de como são feitos os programas para celular, iniciando assim minha jornada após ter feito disciplinas técninas que me
+        inseriram de vez na programação.
+        \n\n\n
+        </p>
+
+        <b> Habilidades </b>
+        \n\n
+        <b> <font color='#FF0000'> Desenvolvimento Android: </font> </b>
+        Estou aprendendo a desenvolver no Android desde Março de 2023, desenvolvendo projetos pessoais com a linguagem Java.
+        Notei nesse percurso a mudança do mercado Android para a linguagem Kotlin, venho desenvolvendo projetos como esse
+        que me dão experiência para soluções em apps.
+        \n\n
+        <b> <font color='#FF0000'> Arquitetura de Software: </font> </b>
+        Nesta jornada enfrento vários desafios, descobrindo coisas novas. Dentre elas é a aplicação de Arquiteturas, destaco a
+        MVVM na qual estou aprofundando meus conhecimentos.
+        \n\n
+        <b> <font color='#FF0000'> Skills: </font> </b>
+        - Java
+        - Kotlin
+        - Firebase
+        - XML
+        - JSON
+        \n\n
+        <b> <font color='#FF0000'> Recursos de aprendizado: </font> </b>
+        Além do curso que estou fazendo. Aprendo com livros como Código Limpo e Arquitetura Limpa.
+        \n
+        
+    </string>
+    <string name="projetos">Projetos</string>
+    <string name="contato">Contatos</string>
+    <string name="txprojeto_barbearia">Projeto Barbearia</string>
+    <string name="txprojeto_pizzaria">Projeto Pizzaria</string>
+    <string name="detalhes_do_projeto">Detalhes do Projeto</string>
+    <string name="contact">+55 (74) 9 9963-1921</string>
+    <string name="email">developcl1232@gmail.com</string>
+</resources>

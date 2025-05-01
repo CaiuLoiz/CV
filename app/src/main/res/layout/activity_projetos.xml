@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Projetos">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/projTool"
+        app:title="@string/projetos"
+        app:titleTextColor="@color/white"
+        app:navigationIcon="@drawable/ic_back"
+        android:background="@color/black"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/projBarbearia"
+        android:src="@drawable/projeto_barbearia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/projTool"
+        android:layout_margin="20dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+
+    <TextView
+        android:id="@+id/txBarbearia"
+        android:text="@string/txprojeto_barbearia"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/projBarbearia"
+        app:layout_constraintTop_toTopOf="@id/projBarbearia"
+        app:layout_constraintBottom_toBottomOf="@id/projBarbearia"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:text="@string/detalhes_do_projeto"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/red"
+        app:cornerRadius="32dp"
+        app:layout_constraintStart_toStartOf="@id/txBarbearia"
+        app:layout_constraintTop_toBottomOf="@id/txBarbearia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/projPizzaria"
+        android:src="@drawable/projeto_pizzaria"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/projBarbearia"
+        android:layout_margin="20dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+
+    <TextView
+        android:id="@+id/txPizzaria"
+        android:text="@string/txprojeto_pizzaria"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/projPizzaria"
+        app:layout_constraintTop_toTopOf="@id/projPizzaria"
+        app:layout_constraintBottom_toBottomOf="@id/projPizzaria"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:text="@string/detalhes_do_projeto"
+        android:backgroundTint="@color/red"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="32dp"
+        app:layout_constraintStart_toStartOf="@id/txPizzaria"
+        app:layout_constraintTop_toBottomOf="@id/txPizzaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/projMarcenaria"
+        android:src="@drawable/projeto_marcenaria"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/projPizzaria"
+        android:layout_margin="20dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+
+    <TextView
+        android:id="@+id/txMarcenaria"
+        android:text="@string/txprojeto_pizzaria"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/projMarcenaria"
+        app:layout_constraintTop_toTopOf="@id/projMarcenaria"
+        app:layout_constraintBottom_toBottomOf="@id/projMarcenaria"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:text="@string/detalhes_do_projeto"
+        android:backgroundTint="@color/red"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="32dp"
+        app:layout_constraintStart_toStartOf="@id/txMarcenaria"
+        app:layout_constraintTop_toBottomOf="@id/txMarcenaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

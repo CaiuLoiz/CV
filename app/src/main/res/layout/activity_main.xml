@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imPerfil"
+        android:src="@drawable/foto2"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        />
+
+    <TextView
+        android:id="@+id/txNome"
+        android:text="@string/caio_luiz"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ScrollView
+        android:background="@drawable/borda_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/txDescri"
+            android:text="@string/descricao"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btProjetos"
+        android:backgroundTint="@color/blue"
+        android:padding="15dp"
+
+        android:text="@string/projetos"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        android:layout_marginHorizontal="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btContatos"
+        android:backgroundTint="@color/blue"
+        android:padding="15dp"
+
+        android:text="@string/contato"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        android:layout_marginHorizontal="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <View
+        android:background="@color/blue"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        />
+
+</LinearLayout>

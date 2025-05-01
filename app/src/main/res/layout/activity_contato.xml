@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Contato">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/contTool"
+        app:title="@string/contato"
+        app:navigationIcon="@drawable/ic_back"
+        app:titleTextColor="@color/white"
+        android:background="@color/dark_green"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/contCel"
+        android:src="@drawable/ic_phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contTool"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+
+    <TextView
+        android:text="@string/contact"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/contCel"
+        app:layout_constraintTop_toTopOf="@id/contCel"
+        app:layout_constraintBottom_toBottomOf="@id/contCel"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/contEmail"
+        android:src="@drawable/ic_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contCel"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+
+    <TextView
+        android:text="@string/email"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/contEmail"
+        app:layout_constraintTop_toTopOf="@id/contEmail"
+        app:layout_constraintBottom_toBottomOf="@id/contEmail"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/contWhats"
+        android:src="@drawable/logo_whatsapp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="20dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

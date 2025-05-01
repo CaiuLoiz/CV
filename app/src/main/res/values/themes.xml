@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StacKTMeuPortifolio" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+
+    <style name="TelaContato" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:statusBarColor">@color/dark_green</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="TelaProjeto" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+    
+    <style name="Theme.StacKTMeuPortifolio" parent="Base.Theme.StacKTMeuPortifolio" />
+    <!-- Theme.TelaContato é para referenciar no AndroidManifest, por exemplo -->
+    <!-- TelaContato é o estilo referente ao tema -->
+    <style name="Theme.TelaContato" parent="TelaContato"/>
+    <style name="Theme.TelaProjeto" parent="TelaProjeto"/>
+</resources>
